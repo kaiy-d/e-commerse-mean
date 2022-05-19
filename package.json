@@ -13,16 +13,7 @@
 		"data:destroy": "node backend/seeder -destroy",
 		"heroku-postbuild": "NPM_CONFIG_PRODUCTION=false npm install --prefix frontend && npm run build --prefix frontend"
 	},
-	"repository": {
-		"type": "git",
-		"url": "git+https://github.com/vandarrellponce/vdp-prostore.git"
-	},
-	"author": "Van Darrell Ponce",
 	"license": "ISC",
-	"bugs": {
-		"url": "https://github.com/vandarrellponce/vdp-prostore/issues"
-	},
-	"homepage": "https://github.com/vandarrellponce/vdp-prostore#readme",
 	"dependencies": {
 		"@types/react-router-bootstrap": "^0.24.5",
 		"@types/react-router-dom": "^5.1.6",
